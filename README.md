@@ -104,6 +104,21 @@ Channel 1 + Channel 2 + Detection
   </tr>
 </table>
 
+Control
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/3H-1 CELLS.png" width="280"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 CONTROL 1.mp4" width="280"><br>
+      <b>Channel 3: Mem</b>
+    </td>
+  </tr>
+</table>
+
 ---
 
 # Output Files
