@@ -53,6 +53,22 @@ Expected channels:
 
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
+Examples Channel 1
+
+<p align="center">
+  <img src="IMAGES/L3-2 LYSOSOMES.png" width="800">
+  <img src="IMAGES/0H-1 LYSOSOMES.png" width="800">
+  <img src="IMAGES/3H-1 LYSOSOMES.png" width="800">
+</p>
+
+Examples Channel 2
+
+<p align="center">
+  <img src="IMAGES/L3-2 CELLS.png" width="800">
+  <img src="IMAGES/0H-1 CELLS.png" width="800">
+  <img src="IMAGES/3H-1 CELLSS.png" width="800">
+</p>
+
 ---
 
 # Output Files
