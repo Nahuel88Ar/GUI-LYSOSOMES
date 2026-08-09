@@ -58,17 +58,12 @@ Examples Channel 1
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES.png" width="280"><br>
-      <b>Main Interface</b>
-    </td>
-    <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES.png" width="280"><br>
-      <b>Detection</b>
-    </td>
-    <td align="center">
       <img src="IMAGES/3H-1 LYSOSOMES.png" width="280"><br>
-      <b>Results</b>
+      <b>Channel 1</b>
     </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="280"><br>
+      <b>Detection</b>
   </tr>
 </table>
 
@@ -77,16 +72,12 @@ Examples Channel 2
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 CELLS.png" width="280"><br>
-      <b>Main Interface</b>
-    </td>
-    <td align="center">
-      <img src="IMAGES/0H-1 CELLS.png" width="280"><br>
-      <b>Detection</b>
-    </td>
-    <td align="center">
       <img src="IMAGES/3H-1 CELLS.png" width="280"><br>
-      <b>Results</b>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="280"><br>
+      <b>Segmentation cells</b>
     </td>
   </tr>
 </table>
