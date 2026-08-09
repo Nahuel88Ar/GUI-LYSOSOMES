@@ -55,19 +55,41 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
 
 Examples Channel 1
 
-<p align="center">
-  <img src="IMAGES/L3-2 LYSOSOMES.png" width="32%">
-  <img src="IMAGES/0H-1 LYSOSOMES.png" width="32%">
-  <img src="IMAGES/3H-1 LYSOSOMES.png" width="32%">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="280"><br>
+      <b>Main Interface</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="280"><br>
+      <b>Detection</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="280"><br>
+      <b>Results</b>
+    </td>
+  </tr>
+</table>
 
 Examples Channel 2
 
-<p align="center">
-  <img src="IMAGES/L3-2 CELLS.png" width="32%">
-  <img src="IMAGES/0H-1 CELLS.png" width="32%">
-  <img src="IMAGES/3H-1 CELLSS.png" width="32%">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/L3-2 CELLS.png" width="280"><br>
+      <b>Main Interface</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 CELLS.png" width="280"><br>
+      <b>Detection</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 CELLS.png" width="280"><br>
+      <b>Results</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
