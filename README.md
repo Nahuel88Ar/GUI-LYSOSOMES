@@ -62,8 +62,8 @@ Examples Channel 1
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="280"><br>
-      <b>Detection</b>
+      <img src="IMAGES/3H-1 LYSOSOMES LABEL.png" width="280"><br>
+      <b>Detection Lysosomes</b>
   </tr>
 </table>
 
