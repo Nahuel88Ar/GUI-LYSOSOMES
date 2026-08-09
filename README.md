@@ -56,17 +56,17 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
 Examples Channel 1
 
 <p align="center">
-  <img src="IMAGES/L3-2 LYSOSOMES.png" width="800">
-  <img src="IMAGES/0H-1 LYSOSOMES.png" width="800">
-  <img src="IMAGES/3H-1 LYSOSOMES.png" width="800">
+  <img src="IMAGES/L3-2 LYSOSOMES.png" width="200">
+  <img src="IMAGES/0H-1 LYSOSOMES.png" width="200">
+  <img src="IMAGES/3H-1 LYSOSOMES.png" width="200">
 </p>
 
 Examples Channel 2
 
 <p align="center">
-  <img src="IMAGES/L3-2 CELLS.png" width="800">
-  <img src="IMAGES/0H-1 CELLS.png" width="800">
-  <img src="IMAGES/3H-1 CELLSS.png" width="800">
+  <img src="IMAGES/L3-2 CELLS.png" width="200">
+  <img src="IMAGES/0H-1 CELLS.png" width="200">
+  <img src="IMAGES/3H-1 CELLSS.png" width="200">
 </p>
 
 ---
