@@ -94,6 +94,11 @@ The software was developed and tested using:
 | scikit-image | 0.24.0 |
 | SciPy | 1.11.4 |
 | Napari | 0.6.4 |
+| Magicgui | 0.10.1 |
+| Matplotlib | 3.9.2 |
+| PyQt6 | 6.11.0 |
+
+
 
 ---
 
