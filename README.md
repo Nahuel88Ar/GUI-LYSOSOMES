@@ -53,7 +53,10 @@ Expected channels:
 
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
-Examples Channel 1
+---
+# Example
+
+Channel 1
 
 <table>
   <tr>
@@ -78,6 +81,25 @@ Examples Channel 2
     <td align="center">
       <img src="IMAGES/3H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="280"><br>
       <b>Segmentation cells</b>
+    </td>
+  </tr>
+</table>
+
+Channel 1 + Channel 2 + Detection
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="33%"><br>
+      <b>Channel 1</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 CELLS.png" width="33%"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="33%"><br>
+      <b>Detection + Segmentation</b>
     </td>
   </tr>
 </table>
