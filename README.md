@@ -70,7 +70,7 @@ Channel 1
   </tr>
 </table>
 
-Examples Channel 2
+Channel 2
 
 <table>
   <tr>
