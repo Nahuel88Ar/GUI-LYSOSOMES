@@ -90,15 +90,15 @@ Channel 1 + Channel 2 + Detection
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/3H-1 LYSOSOMES.png" width="33%"><br>
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="50%"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 CELLS.png" width="33%"><br>
+      <img src="IMAGES/3H-1 CELLS.png" width="50%"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="33%"><br>
+      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
       <b>Detection + Segmentation</b>
     </td>
   </tr>
