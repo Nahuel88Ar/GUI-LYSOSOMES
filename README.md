@@ -61,33 +61,33 @@ Channel 1
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="100%"><br>
+      <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="300" height="300"><br>
       <b>Detection Lysosomes</b>
     </td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="100%"><br>
+      <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="300" height="300"><br>
       <b>Detection Lysosomes</b>
     </td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="IMAGES/3H-1 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 LYSOSOMES LABEL.png" width="100%"><br>
+      <img src="IMAGES/3H-1 LYSOSOMES LABEL.png" width="300" height="300"><br>
       <b>Detection Lysosomes</b>
     </td>
   </tr>
@@ -98,31 +98,31 @@ Channel 2
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 CELLS.png" width="100%"><br>
+      <img src="IMAGES/L3-2 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/L3-2 SEGMENTATION WITHOUT LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/L3-2 SEGMENTATION WITHOUT LYSOSOMES.png" width="300" height="300"><br>
       <b>Segmentation cells</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGES/0H-1 CELLS.png" width="100%"><br>
+      <img src="IMAGES/0H-1 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/0H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="300" height="300"><br>
       <b>Segmentation cells</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGES/3H-1 CELLS.png" width="100%"><br>
+      <img src="IMAGES/3H-1 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/3H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="300" height="300"><br>
       <b>Segmentation cells</b>
     </td>
   </tr>
@@ -133,43 +133,43 @@ Channel 1 + Channel 2 + Detection
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/L3-2 CELLS.png" width="100%"><br>
+      <img src="IMAGES/L3-2 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/L3-2 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/L3-2 SEGMENTATION WITH LYSOSOMES.png" width="300" height="300"><br>
       <b>Detection + Segmentation</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 CELLS.png" width="100%"><br>
+      <img src="IMAGES/0H-1 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/0H-1 SEGMENTATION WITH LYSOSOMES.png" width="300" height="300"><br>
       <b>Detection + Segmentation</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMAGES/3H-1 LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="300" height="300"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 CELLS.png" width="100%"><br>
+      <img src="IMAGES/3H-1 CELLS.png" width="300" height="300"><br>
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
+      <img src="IMAGES/3H-1 SEGMENTATION WITH LYSOSOMES.png" width="300" height="300"><br>
       <b>Detection + Segmentation</b>
     </td>
   </tr>
