@@ -155,7 +155,7 @@ Channel 1 + Channel 2 + Detection
       <b>Channel 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 SEGMENTATION WITH LYSOSOMES.png" width="300" height="300"><br>
+      <img src="IMAGES/0H-1.png" width="300" height="300"><br>
       <b>Detection + Segmentation</b>
     </td>
   </tr>
