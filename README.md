@@ -49,7 +49,7 @@ Expected channels:
 | Channel | Content |
 |----------|---------|
 | Channel 1 | Lysosome signal |
-| Channel 2 | Cell membrane / cell marker |
+| Channel 2 | Cell signal |
 
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
