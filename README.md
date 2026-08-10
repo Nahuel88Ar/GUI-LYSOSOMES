@@ -54,9 +54,33 @@ Expected channels:
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
 ---
-# Example
+# Examples
 
 Channel 1
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="280"><br>
+      <b>Channel 1</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="280"><br>
+      <b>Detection Lysosomes</b>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="280"><br>
+      <b>Channel 1</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="280"><br>
+      <b>Detection Lysosomes</b>
+  </tr>
+</table>
 
 <table>
   <tr>
@@ -75,6 +99,32 @@ Channel 2
 <table>
   <tr>
     <td align="center">
+      <img src="IMAGES/L3-2 CELLS.png" width="280"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/L3-2 SEGMENTATION WITHOUT LYSOSOMES.png" width="280"><br>
+      <b>Segmentation cells</b>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/0H-1 CELLS.png" width="280"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 SEGMENTATION WITHOUT LYSOSOMES.png" width="280"><br>
+      <b>Segmentation cells</b>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
       <img src="IMAGES/3H-1 CELLS.png" width="280"><br>
       <b>Channel 2</b>
     </td>
@@ -86,6 +136,40 @@ Channel 2
 </table>
 
 Channel 1 + Channel 2 + Detection
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="100%"><br>
+      <b>Channel 1</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/L3-2 CELLS.png" width="100%"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/L3-2 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
+      <b>Detection + Segmentation</b>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
+      <b>Channel 1</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 CELLS.png" width="100%"><br>
+      <b>Channel 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/0H-1 SEGMENTATION WITH LYSOSOMES.png" width="100%"><br>
+      <b>Detection + Segmentation</b>
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
