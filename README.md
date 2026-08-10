@@ -67,8 +67,6 @@ Channel 1
     <td align="center">
       <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="100%"><br>
       <b>Detection Lysosomes</b>
-  </tr>
-  <tr>
     <td align="center">
       <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
       <b>Channel 1</b>
@@ -76,9 +74,6 @@ Channel 1
     <td align="center">
       <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="100%"><br>
       <b>Detection Lysosomes</b>
-  </tr>
-  
-  <tr>
     <td align="center">
       <img src="IMAGES/3H-1 LYSOSOMES.png" width="100%"><br>
       <b>Channel 1</b>
