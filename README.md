@@ -68,9 +68,6 @@ Channel 1
       <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="280"><br>
       <b>Detection Lysosomes</b>
   </tr>
-</table>
-
-<table>
   <tr>
     <td align="center">
       <img src="IMAGES/0H-1 LYSOSOMES.png" width="280"><br>
@@ -80,9 +77,7 @@ Channel 1
       <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="280"><br>
       <b>Detection Lysosomes</b>
   </tr>
-</table>
-
-<table>
+  
   <tr>
     <td align="center">
       <img src="IMAGES/3H-1 LYSOSOMES.png" width="280"><br>
@@ -107,9 +102,6 @@ Channel 2
       <b>Segmentation cells</b>
     </td>
   </tr>
-</table>
-
-<table>
   <tr>
     <td align="center">
       <img src="IMAGES/0H-1 CELLS.png" width="280"><br>
@@ -120,9 +112,6 @@ Channel 2
       <b>Segmentation cells</b>
     </td>
   </tr>
-</table>
-
-<table>
   <tr>
     <td align="center">
       <img src="IMAGES/3H-1 CELLS.png" width="280"><br>
@@ -152,9 +141,6 @@ Channel 1 + Channel 2 + Detection
       <b>Detection + Segmentation</b>
     </td>
   </tr>
-</table>
-
-<table>
   <tr>
     <td align="center">
       <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
@@ -169,9 +155,6 @@ Channel 1 + Channel 2 + Detection
       <b>Detection + Segmentation</b>
     </td>
   </tr>
-</table>
-
-<table>
   <tr>
     <td align="center">
       <img src="IMAGES/3H-1 LYSOSOMES.png" width="100%"><br>
