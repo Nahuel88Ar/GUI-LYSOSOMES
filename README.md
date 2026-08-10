@@ -61,30 +61,35 @@ Channel 1
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES.png" width="20%"><br>
+      <img src="IMAGES/L3-2 LYSOSOMES.png" width="100%"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="20%"><br>
+      <img src="IMAGES/L3-2 LYSOSOMES LABEL.png" width="100%"><br>
       <b>Detection Lysosomes</b>
+    </td>
   </tr>
+
   <tr>
     <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES.png" width="20%"><br>
+      <img src="IMAGES/0H-1 LYSOSOMES.png" width="100%"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="20%"><br>
+      <img src="IMAGES/0H-1 LYSOSOMES LABEL.png" width="100%"><br>
       <b>Detection Lysosomes</b>
-    <td align="center">
+    </td>
   </tr>
+
   <tr>
-      <img src="IMAGES/3H-1 LYSOSOMES.png" width="20%"><br>
+    <td align="center">
+      <img src="IMAGES/3H-1 LYSOSOMES.png" width="100%"><br>
       <b>Channel 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1 LYSOSOMES LABEL.png" width="20%"><br>
+      <img src="IMAGES/3H-1 LYSOSOMES LABEL.png" width="100%"><br>
       <b>Detection Lysosomes</b>
+    </td>
   </tr>
 </table>
 
