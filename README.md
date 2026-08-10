@@ -105,89 +105,6 @@ Channel 1 + Channel 2 + Detection
 </table>
 
 ---
-
-# Output Files
-
-The software automatically generates:
-
-- Lysosome coordinates
-- Cell segmentation
-- Cell assignments
-- Lysosome statistics
-- Cell statistics
-- Fluorescence quantification
-- Diameter statistics
-- Overlay TIFF stacks
-- MP4/GIF visualization videos
-- Napari-editable lysosome tables
-- Debug images for quality control
-
-Outputs are exported as CSV, TIFF, and video files.
-
----
-
-# Installation
-
-## Requirements
-
-The software was developed and tested using:
-
-| Package | Version |
-|---------|---------|
-| Python | **3.12.13** |
-| NumPy | 1.26.4 |
-| Pandas | 2.2.3 |
-| OpenCV | 4.12.0 |
-| ImageIO | 2.33.1 |
-| AICSImageIO | 4.14.0 |
-| tifffile | 2023.2.28 |
-| czifile | 2019.7.2.1 |
-| scikit-image | 0.24.0 |
-| SciPy | 1.11.4 |
-| Napari | 0.6.4 |
-| Magicgui | 0.10.1 |
-| Matplotlib | 3.9.2 |
-| PyQt6 | 6.11.0 |
-
-
-
----
-
-## Clone the repository
-
-```bash
-git clone https://github.com/YourUsername/Lysosomes-Detector-GUI.git
-cd Lysosomes-Detector-GUI
-```
-
----
-
-## Install all dependencies
-
-All required Python packages are listed in **requirements.txt**.
-
-Install everything with a single command:
-
-```bash
-pip install -r requirements.txt
-```
-
-This installs the exact package versions used during development, ensuring compatibility with the software.
-
----
-
-# Quick Start
-
-After installing the dependencies, launch the program:
-
-```bash
-python Lysosomes_Detector_GUI.py
-```
-
-The graphical interface will open automatically.
-
----
-
 # Workflow
 
 The software performs the following pipeline:
@@ -229,6 +146,25 @@ Visualization outputs include:
 
 ---
 
+# Output Files
+
+The software automatically generates:
+
+- Lysosome coordinates
+- Cell segmentation
+- Cell assignments
+- Lysosome statistics
+- Cell statistics
+- Fluorescence quantification
+- Diameter statistics
+- Overlay TIFF stacks
+- MP4/GIF visualization videos
+- Napari-editable lysosome tables
+- Debug images for quality control
+
+Outputs are exported as CSV, TIFF, and video files.
+
+---
 # Applications
 
 This software is suitable for:
@@ -243,6 +179,54 @@ This software is suitable for:
 
 ---
 
+# Installation
+
+## Requirements
+
+The software was developed and tested using:
+
+| Package | Version |
+|---------|---------|
+| Python | **3.12.13** |
+| NumPy | 1.26.4 |
+| Pandas | 2.2.3 |
+| OpenCV | 4.12.0 |
+| ImageIO | 2.33.1 |
+| AICSImageIO | 4.14.0 |
+| tifffile | 2023.2.28 |
+| czifile | 2019.7.2.1 |
+| scikit-image | 0.24.0 |
+| SciPy | 1.11.4 |
+| Napari | 0.6.4 |
+| Magicgui | 0.10.1 |
+| Matplotlib | 3.9.2 |
+| PyQt6 | 6.11.0 |
+
+---
+
+## Clone the repository
+
+```bash
+git clone https://github.com/YourUsername/Lysosomes-Detector-GUI.git
+cd Lysosomes-Detector-GUI
+```
+
+---
+
+## Install all dependencies
+
+All required Python packages are listed in **requirements.txt**.
+
+Install everything with a single command:
+
+```bash
+pip install -r requirements.txt
+```
+
+This installs the exact package versions used during development, ensuring compatibility with the software.
+
+---
+
 # Dependencies Included
 
 The repository includes a **requirements.txt** file containing all required Python packages.
@@ -252,6 +236,18 @@ To recreate the software environment:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+# Quick Start
+
+After installing the dependencies, launch the program:
+
+```bash
+python Lysosomes_Detector_GUI.py
+```
+
+The graphical interface will open automatically.
 
 ---
 
