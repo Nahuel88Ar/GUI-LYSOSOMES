@@ -1,8 +1,6 @@
 # Lysosomes-Detector-GUI
 Interactive Python GUI for automated 3D lysosome detection, cell segmentation, signal quantification, and visualization from multichannel TIFF/CZI microscopy datasets. Includes Napari-based editing, per-cell analysis, video generation, and export of quantitative results.
 
-In others words, Interactive Python software for automated **3D lysosome detection**, **cell segmentation**, **quantitative fluorescence analysis**, and **visualization** from multichannel microscopy datasets.
-
 The software provides an intuitive graphical interface for analyzing TIFF and Zeiss CZI image stacks, producing quantitative measurements, publication-quality visualizations, videos, and editable results through Napari.
 
 ---
@@ -10,7 +8,7 @@ The software provides an intuitive graphical interface for analyzing TIFF and Ze
 ## Features
 
 - 🔬 Automatic 3D lysosome detection
-- 🧫 Cell segmentation using adaptive thresholding and watershed algorithms
+- Cell segmentation using adaptive thresholding and watershed algorithms
 - 📂 Supports TIFF and Zeiss CZI microscopy files
 - 📏 Automatic extraction of voxel dimensions from image metadata
 - 🖥️ User-friendly graphical interface (Tkinter)
@@ -25,12 +23,12 @@ The software provides an intuitive graphical interface for analyzing TIFF and Ze
   - Residual cytoplasmic fluorescence
   - Distance-dependent fluorescence distribution
   - Cell-by-cell statistics
-- 🎥 Automatic generation of:
+- Automatic generation of:
   - CSV result tables
   - Overlay TIFF stacks
   - MP4/GIF videos
   - Debug images for quality control
-- 🎨 Visualization of lysosome-cell relationships
+-  Visualization of lysosome-cell relationships
 - 📐 Diameter-based filtering of detected lysosomes
 - 📈 Export of publication-ready quantitative datasets
 
