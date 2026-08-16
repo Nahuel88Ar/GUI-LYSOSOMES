@@ -71,6 +71,8 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
   </tr>
 </table>
 
+##How do I obtain the diameter of lysosomes?
+
 ---
 # Workflow
 
