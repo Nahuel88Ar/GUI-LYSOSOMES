@@ -58,15 +58,15 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
   <tr>
     <td align="center">
       <img src="IMAGES/L3-6/L3-6 all process.png" width="300" height="300"><br>
-      <b>L3-6</b>
+      <b>LARVA</b>
     </td>
     <td align="center">
       <img src="IMAGES/0H-1/0H-1 all process.png" width="300" height="300"><br>
-      <b>0H-1</b>
+      <b>0 HOUR</b>
     </td>
     <td align="center">
       <img src="IMAGES/3H-1/3H-1 all process.png" width="300" height="300"><br>
-      <b>3H-1</b>
+      <b>3 HOURS</b>
     </td>
   </tr>
 </table>
