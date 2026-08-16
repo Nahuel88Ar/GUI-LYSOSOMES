@@ -64,6 +64,10 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
       <img src="IMAGES/0H-1/0H-1 all process.png" width="300" height="300"><br>
       <b>0H-1</b>
     </td>
+    <td align="center">
+      <img src="IMAGES/3H-1/3H-1 all process.png" width="300" height="300"><br>
+      <b>3H-1</b>
+    </td>
   </tr>
 </table>
 
