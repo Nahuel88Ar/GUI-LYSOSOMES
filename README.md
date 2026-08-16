@@ -81,7 +81,7 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
 </p>
 
 For a complete explanation of the method, click on the link below and obtain the explanatory document, which is also located in the main directory of the directory.
-
+[📄 Download the document](Lysosome_Diameter_BlobLoG_FWHM.docx)
 ---
 # Workflow
 
