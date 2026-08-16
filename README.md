@@ -61,6 +61,12 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
       <b>L3-6</b>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="IMAGES/0H-1/0H-1 all process.png" width="300" height="300"><br>
+      <b>L3-6</b>
+    </td>
+  </tr>
 </table>
 
 ---
