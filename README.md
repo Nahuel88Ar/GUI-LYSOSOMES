@@ -80,6 +80,8 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
   <b>Figure: Radial intensity profile used to estimate lysosome diameter with the FWHM method.</b>
 </p>
 
+For a complete explanation of the method, click on the link below and obtain the explanatory document, which is also located in the main directory of the directory.
+
 ---
 # Workflow
 
