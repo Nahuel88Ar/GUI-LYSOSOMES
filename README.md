@@ -110,14 +110,17 @@ PIMI = A/B
   <tr>
     <td align="center">
       <img src="IMAGES/L3-6/L3-6 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
+      <img src="IMAGES/L3-6/L3-6 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
       <b>LARVA</b>
     </td>
     <td align="center">
       <img src="IMAGES/0H-1/0H-1 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
+      <img src="IMAGES/0H-1/0H-1 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
       <b>0 HOUR</b>
     </td>
     <td align="center">
       <img src="IMAGES/3H-1/3H-1 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
+      <img src="IMAGES/3H-1/3H-1 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
       <b>3 HOURS</b>
     </td>
   </tr>
