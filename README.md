@@ -116,6 +116,14 @@ PIMI = (A-B)/(A+B)
 ---
 # Examples
 
+<p align="center">
+  <img src="MASKS.png" alt="MASKS" width="850">
+</p>
+
+<p align="center">
+  <b>Figure: Calculate MASKS.</b>
+</p>
+
 <table>
   <tr>
     <td align="center">
