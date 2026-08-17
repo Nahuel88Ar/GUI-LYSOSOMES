@@ -95,9 +95,9 @@ SIGNAL LYSOSOME CORE = X
 
 LYSOSOME CORE VOL = Vx
 
-### SIGNAL LYSOSOME CORE - LYSOSOME CORE VOL relationship
+### SIGNAL LYSOSOME CORE AVERAGE
 
-A = X - Vx
+A = X / Vx
 
 ### Membrane
 
@@ -105,13 +105,13 @@ SIGNAL MEMBRANE = M
 
 MEMBRANE VOL = Vm
 
-### SIGNAL MEMBRANE - MEMBRANE VOL relationship
+### SIGNAL MEMBRANE AVERAGE
 
-B = M - Vm
+B = M / Vm
 
 ### Signal intensity coefficient of lysosomes relative to the membrane
 
-PIMI = A/B
+PIMI = (A-B)/(A+B)
 
 ---
 # Examples
