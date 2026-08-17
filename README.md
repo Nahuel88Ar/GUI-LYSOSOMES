@@ -88,23 +88,33 @@ It is located in the main directory of the directory
 
 ## Signal quantization 
 
-# Lysosome
+### Lysosome
 SIGNAL LYSOSOME = SIGNAL LYSOSOME CORE + SIGNAL LYSOSOME ASSOCIATED
+
 SIGNAL LYSOSOME CORE = X
+
 LYSOSOME CORE VOL = Vx
 
-# SIGNAL LYSOSOME CORE - LYSOSOME CORE VOL relationship
+### SIGNAL LYSOSOME CORE - LYSOSOME CORE VOL relationship
+
 A = X - Vx
 
-# Membrane
+### Membrane
+
 SIGNAL MEMBRANE = M
+
 MEMBRANE VOL = Vm
 
-# SIGNAL MEMBRANE - MEMBRANE VOL relationship
+### SIGNAL MEMBRANE - MEMBRANE VOL relationship
+
 B = M - Vm
 
-# Signal intensity coefficient of lysosomes relative to the membrane
+### Signal intensity coefficient of lysosomes relative to the membrane
+
 PIMI = A/B
+
+---
+# Examples
 
 <table>
   <tr>
