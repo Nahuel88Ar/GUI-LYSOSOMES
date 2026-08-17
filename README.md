@@ -73,7 +73,7 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
 
 ## How do I obtain the diameter of lysosomes?
 <p align="center">
-  <img src="FWHM method.png" alt="FWHM method for lysosome diameter measurement" width="850">
+  <img src="PLOT LYSOSOMES CORE-ASSOCIATED.png" alt="FWHM method for lysosome diameter measurement" width="850">
 </p>
 
 <p align="center">
