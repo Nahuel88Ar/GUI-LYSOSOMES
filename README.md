@@ -140,11 +140,11 @@ CH 2: Channel 2(cell)
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/CONTROL MASKS/CH 1-2.png" width="300" height="300"><br>
+      <img src="IMAGES/CONTROL MASKS/CH 1-2.png" width="100%" height="100%"><br>
       <b>CH 1 + CH 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/CONTROL MASKS/MASK 1.png" width="300" height="300"><br>
+      <img src="IMAGES/CONTROL MASKS/MASK 1.png" width="100%" height="100%"><br>
       <b>MASK 1</b>
     </td>
   </tr>
@@ -152,11 +152,11 @@ CH 2: Channel 2(cell)
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/CONTROL MASKS/MASK 2.png" width="300" height="300"><br>
+      <img src="IMAGES/CONTROL MASKS/MASK 2.png" width="100%" height="100%"><br>
       <b>MASK 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/CONTROL MASKS/MASK 3.png" width="300" height="300"><br>
+      <img src="IMAGES/CONTROL MASKS/MASK 3.png" width="100%" height="100%"><br>
       <b>MASK 3</b>
     </td>
   </tr>
