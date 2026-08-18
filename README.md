@@ -128,17 +128,17 @@ PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
   <b>Figure: Calculate MASKS.</b>
 </p>
 
-## MASK 1: It represents the cell membrane.
+MASK 1: It represents the cell membrane.
 
-## MASK 2: It represents the core lysosomes + difussed lysosomes.
+MASK 2: It represents the core lysosomes + difussed lysosomes.
 
-## MASK 3: It represents the RESIDUAL CELL MEMBRANE without lysosomes.
+MASK 3: It represents the RESIDUAL CELL MEMBRANE without lysosomes.
 
-## MASK 3 = MASK 1 - MASK 2
+MASK 3 = MASK 1 - MASK 2
 
-## CH 1: Channel 1(lysosomes)
+CH 1: Channel 1(lysosomes)
 
-## CH 2: Channel 2(cell)
+CH 2: Channel 2(cell)
 
 <table>
   <tr>
