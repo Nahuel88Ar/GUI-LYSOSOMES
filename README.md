@@ -128,22 +128,32 @@ PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
   <b>Figure: Calculate MASKS.</b>
 </p>
 
+MASK 1: It represents the cell membrane.
+MASK 2: It represents the core lysosomes + difussed lysosomes.
+MASK 3: It represents the RESIDUAL CELL MEMBRANE without lysosomes.
+
+MASK 3 = MASK 1 - MASK 2
+
+CH 1: Channel 1(lysosomes)
+CH 2: Channel 2(cell)
+
 <table>
   <tr>
     <td align="center">
-      <img src="IMAGES/L3-6/L3-6 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
-      <img src="IMAGES/L3-6/L3-6 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
-      <b>LARVA</b>
+      <img src="IMAGES/CONTROL MASKS/CH 1-2.png" width="300" height="300"><br>
+      <b>CH 1 + CH 2</b>
     </td>
     <td align="center">
-      <img src="IMAGES/0H-1/0H-1 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
-      <img src="IMAGES/0H-1/0H-1 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
-      <b>0 HOUR</b>
+      <img src="IMAGES/CONTROL MASKS/MASK 1.png" width="300" height="300"><br>
+      <b>MASK 1</b>
     </td>
     <td align="center">
-      <img src="IMAGES/3H-1/3H-1 CH-01 MAGENTA CH-02 GREEN.png" width="300" height="300"><br>
-      <img src="IMAGES/3H-1/3H-1 MEMBRANE LYSOSOMES.png" width="300" height="300"><br>
-      <b>3 HOURS</b>
+      <img src="IMAGES/CONTROL MASKS/MASK 2.png" width="300" height="300"><br>
+      <b>MASK 2</b>
+    </td>
+    <td align="center">
+      <img src="IMAGES/CONTROL MASKS/MASK 3.png" width="300" height="300"><br>
+      <b>MASK 3</b>
     </td>
   </tr>
 </table>
