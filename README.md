@@ -54,6 +54,8 @@ If voxel dimensions are stored in the image metadata, they are read automaticall
 ---
 # Examples
 
+You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
+
 <table>
   <tr>
     <td align="center">
