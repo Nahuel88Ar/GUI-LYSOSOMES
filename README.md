@@ -412,35 +412,7 @@ NOT_L3_GUI.ipynb
 
 Then run the notebook cells from top to bottom.
 
-Important: Make sure the Jupyter kernel is using the lysosome-detector environment and not the default base environment.
-
-The workflow is:
-
-Anaconda Navigator
-        ↓
-Environments
-        ↓
-lysosome-detector
-        ↓
-Home
-        ↓
-Launch Jupyter Notebook / JupyterLab
-        ↓
-Open Lysosomes-Detector-GUI
-        ↓
-Choose:
-    ├── L3_GUI.ipynb
-    │     → Lower-quality / noisier images
-    │
-    └── NOT_L3_GUI.ipynb
-          → Higher-quality / clearer images
-
-Anaconda Tutorials
-Download Anaconda
-Official Anaconda Installation Guide
-Conda Environment Management
-Anaconda Navigator
-Anaconda and Jupyter 
+## Important: Make sure the Jupyter kernel is using the lysosome-detector environment and not the default base environment.
 
 ---
 
