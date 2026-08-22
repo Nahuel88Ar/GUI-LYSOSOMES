@@ -385,9 +385,10 @@ NOT_L3_GUI.ipynb
 
 ### 7. Choose the appropriate notebook
 
-L3_GUI.ipynb
+
 
 Use L3_GUI.ipynb for images with:
+
 
 -Lower image quality and clarity.
 
@@ -403,9 +404,9 @@ Use L3_GUI.ipynb for images with:
 
 This version is particularly recommended for larval-stage images.
 
-NOT_L3_GUI.ipynb
 
 Use NOT_L3_GUI.ipynb for images with:
+
 
 -Higher image quality and clarity.
 
@@ -420,6 +421,7 @@ Use NOT_L3_GUI.ipynb for images with:
 -Less need for erosion.
 
 -Less need for morphological processing.
+
 
 ### 8. Run the notebook
 
