@@ -304,160 +304,248 @@ Alternatively, download the repository from GitHub as a ZIP file and extract it 
 
 ## Recommended Installation: Anaconda Navigator
 
-The easiest way to run the software is to use **Anaconda Navigator** with a dedicated Python environment. Anaconda Navigator provides a graphical interface for creating environments, managing packages, and launching Jupyter Notebook without requiring command-line setup.
+The recommended way to run **Lysosomes-Detector-GUI** is to use **Anaconda Navigator** with a dedicated Python environment. This keeps the required Python packages isolated from other projects and makes it easier to install the correct dependencies and run the Jupyter Notebooks.
 
 ### 1. Install Anaconda
 
 Download and install **Anaconda Distribution** for your operating system:
 
-- [Download Anaconda Distribution](https://www.anaconda.com/download)
-- [Anaconda installation guide](https://www.anaconda.com/docs/getting-started/anaconda/install)
+* [Download Anaconda Distribution](https://www.anaconda.com/download)
+* [Official Anaconda Installation Guide](https://www.anaconda.com/docs/getting-started/anaconda/install)
+* [Getting Started with Anaconda](https://www.anaconda.com/docs/getting-started/main)
 
-Anaconda Distribution includes Python, Jupyter Notebook/JupyterLab, conda environment management, and Anaconda Navigator.
+Anaconda Distribution includes **Anaconda Navigator**, Python, conda, and Jupyter Notebook/JupyterLab.
 
 ### 2. Open Anaconda Navigator
 
-After installation, open **Anaconda Navigator** from your operating system. Navigator can be used to create and manage isolated conda environments and launch Jupyter applications.
+After installing Anaconda, open **Anaconda Navigator** from your operating system.
 
-For an introduction to Navigator and its environment management features, see the official Anaconda documentation:
+Anaconda Navigator provides a graphical interface for:
 
-- [Anaconda Navigator](https://www.anaconda.com/products/navigator)
-- [Anaconda Navigator: Environment management](https://www.anaconda.com/blog/python-environments-development-to-production)
+* Creating and managing Python environments
+* Installing packages
+* Launching Jupyter Notebook or JupyterLab
+* Selecting the environment used for a project
 
-### 3. Create a project environment
+Official documentation:
 
-Create a new conda environment for this repository. Using a dedicated environment is recommended so that the required package versions do not interfere with other Python projects.
+* [Anaconda Navigator](https://www.anaconda.com/products/navigator)
+* [Conda Environment Management](https://www.anaconda.com/guides/conda-environment-management)
+
+### 3. Create a dedicated environment
+
+Create a dedicated environment for **Lysosomes-Detector-GUI**.
 
 In **Anaconda Navigator**:
 
-1. Open the **Environments** section.
-2. Create a new environment.
-3. Use Python **3.12** (the software was tested with Python **3.12.13**).
-4. Give the environment a name, for example `lysosome-detector`.
+1. Select **Environments** from the left-hand menu.
+2. Click **Create**.
+3. Enter the following environment name:
+
+```text
+lysosome-detector
+```
+
+4. Select **Python 3.12**.
+5. Click **Create**.
+
+The software was developed and tested using **Python 3.12.13**.
+
+Using a dedicated environment is recommended because it keeps the packages required by this project separate from other Python projects and from the default `base` environment.
+
+Tutorial:
+
+* [Conda Environment Management](https://www.anaconda.com/guides/conda-environment-management)
 
 ### 4. Install the required packages
 
-The repository includes a **requirements.txt** file containing the required Python packages. After creating the environment, open a terminal associated with that environment and run:
+The repository contains a **`requirements.txt`** file with all the Python packages required by the software.
 
-All required Python packages are listed in **requirements.txt**.
+After creating the `lysosome-detector` environment:
 
-Install everything with a single command:
+1. Open **Anaconda Navigator**.
+2. Go to **Environments**.
+3. Select **`lysosome-detector`**.
+4. Click the **play/arrow icon** next to the environment.
+5. Select **Open Terminal**.
+6. In the terminal, make sure that the `lysosome-detector` environment is active.
+7. Navigate to the folder containing this repository.
+8. Run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-This installs the exact package versions used during development, ensuring compatibility with the software.
+This installs the required Python packages into the **`lysosome-detector`** environment.
 
-### 5. Open the project environment and launch Jupyter
+Tutorial:
 
-After the environment and packages are installed:
+* [Installing Packages with Conda](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/install-packages)
+* [Using pip in a Conda Environment](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/pip-install)
 
-1- Open Anaconda Navigator.
+> **Important:** Install the packages inside the `lysosome-detector` environment. Do not install them into the default `base` environment.
 
-2- Go to Environments.
+### 5. Download or clone the repository
 
-3- Select the lysosome-detector environment.
+You can obtain the repository either by cloning it with Git or by downloading it directly from GitHub.
 
-4- Go back to the Home tab.
+#### Option A — Clone the repository with Git
 
-5- Make sure lysosome-detector is selected as the active environment.
+```bash
+git clone https://github.com/YourUsername/Lysosomes-Detector-GUI.git
+cd Lysosomes-Detector-GUI
+```
 
-6- Find Jupyter Notebook or JupyterLab.
+#### Option B — Download the repository from GitHub
 
-7- Click Launch.
+1. Open the GitHub repository.
+2. Click **Code**.
+3. Select **Download ZIP**.
+4. Extract the ZIP file to a convenient location on your computer.
+
+The repository should contain the following notebooks:
+
+```text
+Lysosomes-Detector-GUI/
+│
+├── L3_GUI.ipynb
+├── NOT_L3_GUI.ipynb
+├── requirements.txt
+└── ...
+```
+
+### 6. Open the project environment and launch Jupyter
+
+Once the environment has been created and the required packages have been installed:
+
+1. Open **Anaconda Navigator**.
+2. Select **Environments**.
+3. Select the **`lysosome-detector`** environment.
+4. Go to the **Home** tab.
+5. Make sure **`lysosome-detector`** is selected as the active environment.
+6. Locate **Jupyter Notebook** or **JupyterLab**.
+7. Click **Launch**.
 
 Jupyter will open in your web browser.
 
-### 6. Open the repository folder
+Official tutorials:
 
-In Jupyter:
+* [Getting Started with Anaconda](https://www.anaconda.com/docs/getting-started/main)
+* [Working with Conda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
 
-1- Navigate to the folder where you downloaded or cloned the Lysosomes-Detector-GUI repository.
+### 7. Open the Lysosomes-Detector-GUI repository
 
-2- Open the repository folder.
+After Jupyter opens in your web browser:
 
-3- You should see the following notebooks:
+1. Navigate to the location where you downloaded or cloned the repository.
+2. Open the **`Lysosomes-Detector-GUI`** folder.
+3. You should see the following two notebooks:
 
+```text
 L3_GUI.ipynb
-
 NOT_L3_GUI.ipynb
+```
 
-### 7. Choose the appropriate notebook
+### 8. Select the appropriate notebook
 
+The repository contains **two different notebook versions**. Select the notebook according to the quality of your microscopy images.
 
+#### `L3_GUI.ipynb`
 
-Use L3_GUI.ipynb for images with:
+Use **`L3_GUI.ipynb`** for images with:
 
+* Lower image quality and clarity
+* More noise
+* A less-clear background
+* More false-positive lysosome detections
+* Greater need for erosion
+* Greater use of morphological processing
 
--Lower image quality and clarity.
+This version is particularly recommended for **larval-stage images**, which generally contain more noise, a less-clear background, and more false-positive lysosome detections.
 
--More noise.
+#### `NOT_L3_GUI.ipynb`
 
--A less-clear background.
+Use **`NOT_L3_GUI.ipynb`** for images with:
 
--More false-positive lysosome detections.
+* Higher image quality and clarity
+* Much less noise
+* A clearer background
+* Greater contrast between cells and the background
+* Fewer false-positive lysosome detections
+* Less need for erosion
+* Less use of morphological processing
 
--Greater need for erosion.
-
--Greater need for morphological processing.
-
-This version is particularly recommended for larval-stage images.
-
-
-Use NOT_L3_GUI.ipynb for images with:
-
-
--Higher image quality and clarity.
-
--Much less noise.
-
--A clearer background.
-
--Greater contrast between cells and the background.
-
--Fewer false-positive lysosome detections.
-
--Less need for erosion.
-
--Less need for morphological processing.
-
-
-### 8. Run the notebook
+### 9. Run the notebook
 
 Open the appropriate notebook:
 
+```text
 L3_GUI.ipynb
+```
 
-or
+or:
 
+```text
 NOT_L3_GUI.ipynb
-
-Then run the notebook cells from top to bottom.
-
-## Important: Make sure the Jupyter kernel is using the lysosome-detector environment and not the default base environment.
-
----
-
-# Quick Start
-
-Use Command Prompt and you write in the command line.
-
-After installing the dependencies, launch the program:
-
-If you use the script L3_GUI.py:
-
-```bash
-python L3_GUI.py
 ```
 
-If you use the script NOT_L3_GUI.py:
+After opening the notebook:
 
-```bash
-python NOT_L3_GUI.py
+1. Make sure the notebook is using the **`lysosome-detector`** Python environment.
+2. Run the notebook cells **from top to bottom**.
+3. Follow the instructions provided in the notebook to load and process your microscopy images.
+
+> **Important:** Do not use the default `base` environment. The notebook should use the **`lysosome-detector`** environment where the required packages were installed.
+
+### 10. Complete workflow
+
+The complete installation and execution workflow is:
+
+```text
+Anaconda Navigator
+        │
+        ▼
+Create Environment
+        │
+        ▼
+lysosome-detector
+(Python 3.12)
+        │
+        ▼
+Install requirements.txt
+        │
+        ▼
+Return to Home
+        │
+        ▼
+Select lysosome-detector
+        │
+        ▼
+Launch Jupyter Notebook / JupyterLab
+        │
+        ▼
+Open Lysosomes-Detector-GUI
+        │
+        ├─────────────────────────┐
+        ▼                         ▼
+L3_GUI.ipynb              NOT_L3_GUI.ipynb
+        │                         │
+        ▼                         ▼
+Lower-quality              Higher-quality
+/noisier images             /clearer images
 ```
 
-The graphical interface will open automatically.
+### Recommended Anaconda Tutorials
+
+For users who are new to Anaconda, the following official tutorials are recommended:
+
+* [Download Anaconda](https://www.anaconda.com/download)
+* [Official Anaconda Installation Guide](https://www.anaconda.com/docs/getting-started/anaconda/install)
+* [Getting Started with Anaconda](https://www.anaconda.com/docs/getting-started/main)
+* [Conda Environment Management](https://www.anaconda.com/guides/conda-environment-management)
+* [Installing Packages with Conda](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/install-packages)
+* [Using pip in a Conda Environment](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/pip-install)
+* [Anaconda Navigator](https://www.anaconda.com/products/navigator)
 
 ---
 
