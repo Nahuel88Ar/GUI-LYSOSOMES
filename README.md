@@ -52,6 +52,24 @@ Expected channels:
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
 ---
+
+# Workflow
+
+The software performs the following pipeline:
+
+1. Load microscopy image 3D
+2. Read voxel metadata 3D
+3. Detect lysosomes 3D
+4. Estimate lysosome size 3D
+5. Segment cells 3D
+6. Assign lysosomes to cells
+7. Quantify fluorescence and volume 3D
+8. Generate overlays and videos
+9. (Optional) Edit results interactively in Napari
+10. Export all measurements
+
+---
+
 # Examples
 
 You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
@@ -74,19 +92,20 @@ You can access the images shown through [📄Zenodo](https://zenodo.org/records/
 </table>
 
 ## How do I obtain the diameter of lysosomes?
-<p align="center">
-  <img src="PLOT FHWR LYSOSOMES CORE-ASSOCIATED.png" alt="FWHM method for lysosome diameter measurement" width="850">
-</p>
-
-<p align="center">
-  <b>Figure: Radial intensity profile used to estimate lysosome diameter with the FWHM method.</b>
-</p>
 
 For a complete explanation of the method, click on the link below and obtain the explanatory document:
 ### Lysosome_Diameter_BlobLoG_FWHM.docx
 It is located in the main directory of the directory
 
 ### [📄 Download the document](Lysosome_Diameter_BlobLoG_FWHM.docx)
+
+<p align="center">
+  <img src="PLOT FHWR LYSOSOMES CORE-ASSOCIATED.png" alt="FWHM method for lysosome diameter measurement" width="850">
+</p>
+
+<p align="center">
+  <b>Figure: Radial intensity profile 3D used to estimate lysosome diameter with the FWHM method.</b>
+</p>
 
 ## Signal quantization 
 
@@ -169,22 +188,6 @@ CH 2: Channel 2(cell)
     </td>
   </tr>
 </table>
-
----
-# Workflow
-
-The software performs the following pipeline:
-
-1. Load microscopy image
-2. Read voxel metadata
-3. Detect lysosomes
-4. Estimate lysosome size
-5. Segment cells
-6. Assign lysosomes to cells
-7. Quantify fluorescence and volume
-8. Generate overlays and videos
-9. (Optional) Edit results interactively in Napari
-10. Export all measurements
 
 ---
 
