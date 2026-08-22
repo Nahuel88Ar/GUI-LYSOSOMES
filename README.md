@@ -330,8 +330,16 @@ pip install -r requirements.txt
 
 After installing the dependencies, launch the program:
 
+If you use the script L3_GUI.py:
+
 ```bash
-python Lysosomes_Detector_GUI.py
+python L3_GUI.py
+```
+
+If you use the script NOT_L3_GUI.py:
+
+```bash
+python NOT_L3_GUI.py
 ```
 
 The graphical interface will open automatically.
