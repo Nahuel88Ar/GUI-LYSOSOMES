@@ -74,6 +74,15 @@ The software performs the following pipeline:
 
 You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
 
+These examples cover the following workflow stages:
+
+1. Load microscopy image 3D
+2. Read voxel metadata 3D
+3. Detect lysosomes 3D
+4. Estimate lysosome size 3D
+5. Segment cells 3D
+6. Assign lysosomes to cells
+
 <table>
   <tr>
     <td align="center">
@@ -145,6 +154,13 @@ PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
 
 ---
 # Examples
+
+These examples cover the following workflow stages:
+
+7. Quantify fluorescence and volume 3D
+8. Generate overlays and videos
+9. (Optional) Edit results interactively in Napari
+10. Export all measurements
 
 <p align="center">
   <img src="MASKS.png" alt="MASKS" width="850">
