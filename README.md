@@ -354,11 +354,17 @@ This installs the exact package versions used during development, ensuring compa
 After the environment and packages are installed:
 
 1- Open Anaconda Navigator.
+
 2- Go to Environments.
+
 3- Select the lysosome-detector environment.
+
 4- Go back to the Home tab.
+
 5- Make sure lysosome-detector is selected as the active environment.
+
 6- Find Jupyter Notebook or JupyterLab.
+
 7- Click Launch.
 
 Jupyter will open in your web browser.
@@ -368,9 +374,13 @@ Jupyter will open in your web browser.
 In Jupyter:
 
 1- Navigate to the folder where you downloaded or cloned the Lysosomes-Detector-GUI repository.
+
 2- Open the repository folder.
+
 3- You should see the following notebooks:
+
 L3_GUI.ipynb
+
 NOT_L3_GUI.ipynb
 
 ### 7. Choose the appropriate notebook
@@ -380,10 +390,15 @@ L3_GUI.ipynb
 Use L3_GUI.ipynb for images with:
 
 -Lower image quality and clarity.
+
 -More noise.
+
 -A less-clear background.
+
 -More false-positive lysosome detections.
+
 -Greater need for erosion.
+
 -Greater need for morphological processing.
 
 This version is particularly recommended for larval-stage images.
@@ -393,11 +408,17 @@ NOT_L3_GUI.ipynb
 Use NOT_L3_GUI.ipynb for images with:
 
 -Higher image quality and clarity.
+
 -Much less noise.
+
 -A clearer background.
+
 -Greater contrast between cells and the background.
+
 -Fewer false-positive lysosome detections.
+
 -Less need for erosion.
+
 -Less need for morphological processing.
 
 ### 8. Run the notebook
