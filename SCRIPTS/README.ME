@@ -1,0 +1,48 @@
+# Image Processing Scripts
+
+This repository contains two script versions designed for different image quality and noise conditions.
+
+## 1. `L3_GUI`
+
+This version is intended for **lower-quality and lower-clarity images** with higher levels of noise.
+
+It is recommended for images that:
+
+* Contain more noise and a less clearly defined background.
+* Require **more erosion** during image processing.
+* Require greater use of **morphological properties** for object identification.
+* Have a higher number of **false-positive lysosome detections**.
+
+A typical example is images from the **larval stage**, which generally have more background noise, lower image clarity, and more false positives for lysosomes.
+
+## 2. `NOT_L3_GUI`
+
+This version is intended for **higher-quality and clearer images** with substantially less noise.
+
+It is recommended for images that:
+
+* Have a cleaner and clearer background.
+* Contain less image noise.
+* Have greater contrast between cells and the background.
+* Require **less erosion** during image processing.
+* Require less reliance on **morphological properties**.
+* Have fewer **false-positive lysosome detections**.
+
+## Which Version Should I Use?
+
+| Image Characteristics            | Recommended Version |
+| -------------------------------- | ------------------- |
+| High noise / low clarity         | `L3_GUI`            |
+| Unclear background               | `L3_GUI`            |
+| More false-positive lysosomes    | `L3_GUI`            |
+| Requires stronger erosion        | `L3_GUI`            |
+| Low noise / high clarity         | `NOT_L3_GUI`        |
+| Clear background                 | `NOT_L3_GUI`        |
+| High cell-to-background contrast | `NOT_L3_GUI`        |
+| Fewer false-positive lysosomes   | `NOT_L3_GUI`        |
+
+### Summary
+
+Use **`L3_GUI`** for noisier, lower-quality images, particularly images from the larval stage.
+
+Use **`NOT_L3_GUI`** for cleaner, higher-quality images with better contrast and fewer false-positive lysosome detections.
