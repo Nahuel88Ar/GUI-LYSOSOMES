@@ -343,7 +343,7 @@ In **Anaconda Navigator**:
 3. Enter the following environment name:
 
 ```text
-lysosome-detector
+Python 3.12 (myenv)
 ```
 
 4. Select **Python 3.12**.
@@ -365,7 +365,7 @@ After creating the `lysosome-detector` environment:
 
 1. Open **Anaconda Navigator**.
 2. Go to **Environments**.
-3. Select **`lysosome-detector`**.
+3. Select **`Python 3.12 (myenv)`**.
 4. Click the **play/arrow icon** next to the environment.
 5. Select **Open Terminal**.
 6. In the terminal, make sure that the `lysosome-detector` environment is active.
@@ -376,14 +376,14 @@ After creating the `lysosome-detector` environment:
 pip install -r requirements.txt
 ```
 
-This installs the required Python packages into the **`lysosome-detector`** environment.
+This installs the required Python packages into the **`Python 3.12 (myenv)`** environment.
 
 Tutorial:
 
 * [Installing Packages with Conda](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/install-packages)
 * [Using pip in a Conda Environment](https://www.anaconda.com/docs/getting-started/working-with-conda/packages/pip-install)
 
-> **Important:** Install the packages inside the `lysosome-detector` environment. Do not install them into the default `base` environment.
+> **Important:** Install the packages inside the `Python 3.12 (myenv)` environment. Do not install them into the default `base` environment.
 
 ### 5. Download or clone the repository
 
@@ -408,8 +408,8 @@ The repository should contain the following notebooks:
 ```text
 Lysosomes-Detector-GUI/
 │
-├── L3_GUI.ipynb
-├── NOT_L3_GUI.ipynb
+├── SCRIPTS/L3_GUI.ipynb
+├── SCRIPTS/NOT_L3_GUI.ipynb
 ├── requirements.txt
 └── ...
 ```
@@ -420,9 +420,9 @@ Once the environment has been created and the required packages have been instal
 
 1. Open **Anaconda Navigator**.
 2. Select **Environments**.
-3. Select the **`lysosome-detector`** environment.
+3. Select the **`Python 3.12 (myenv)`** environment.
 4. Go to the **Home** tab.
-5. Make sure **`lysosome-detector`** is selected as the active environment.
+5. Make sure **`Python 3.12 (myenv)`** is selected as the active environment.
 6. Locate **Jupyter Notebook** or **JupyterLab**.
 7. Click **Launch**.
 
@@ -491,11 +491,11 @@ NOT_L3_GUI.ipynb
 
 After opening the notebook:
 
-1. Make sure the notebook is using the **`lysosome-detector`** Python environment.
+1. Make sure the notebook is using the **`Python 3.12 (myenv)`** Python environment.
 2. Run the notebook cells **from top to bottom**.
 3. Follow the instructions provided in the notebook to load and process your microscopy images.
 
-> **Important:** Do not use the default `base` environment. The notebook should use the **`lysosome-detector`** environment where the required packages were installed.
+> **Important:** Do not use the default `base` environment. The notebook should use the **`Python 3.12 (myenv)`** environment where the required packages were installed.
 
 ### 10. Complete workflow
 
@@ -508,8 +508,7 @@ Anaconda Navigator
 Create Environment
         │
         ▼
-lysosome-detector
-(Python 3.12)
+Python 3.12 (myenv)
         │
         ▼
 Install requirements.txt
