@@ -91,21 +91,22 @@ You can access the images shown through [📄Zenodo](https://zenodo.org/records/
 | CH 02 | Membrane UAS-CD8-GFP |
 
 APF: AFTER PUPA FORMATION
+
 BPF: BEFORE PUPA FORMATION
 
 <table>
   <tr>
     <td align="center">
       <img src="IMAGES/L3-6/L3-6 all process.png" width="300" height="300"><br>
-      <b>LARVA(BPF)</b>
+      <b>LARVA-BPF</b>
     </td>
     <td align="center">
       <img src="IMAGES/0H-1/0H-1 all process.png" width="300" height="300"><br>
-      <b>0 HOUR(AFP)</b>
+      <b>0 HOUR-AFP</b>
     </td>
     <td align="center">
       <img src="IMAGES/3H-1/3H-1 all process.png" width="300" height="300"><br>
-      <b>3 HOURS(AFP)</b>
+      <b>3 HOURS-AFP</b>
     </td>
   </tr>
 </table>
