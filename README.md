@@ -115,7 +115,7 @@ FWHM means Full Width at Half Maximum. F = Full, W = Width, H = Half, M = Maximu
 ### [📄 Download the document](Lysosome_Diameter_BlobLoG_FWHM.docx)
 
 <p align="center">
-  <img src="PLOT FHWR LYSOSOMES CORE-ASSOCIATED.png" alt="FWHM method for lysosome diameter measurement" width="850">
+  <img src="PLOT FHWR LYS CORE-ASSOCIATED.png" alt="FWHM method for lysosome diameter measurement" width="850">
 </p>
 
 <p align="center">
