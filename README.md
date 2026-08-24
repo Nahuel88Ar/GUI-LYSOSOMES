@@ -46,8 +46,8 @@ Expected channels:
 
 | Channel | Content |
 |----------|---------|
-| Channel 1 | Lysosome signal |
-| Channel 2 | Cell signal |
+| Channel 1 | Lysosome UAS-TMEM 192-3xHA |
+| Channel 2 | Membrane UAS-CD8-GFP |
 
 If voxel dimensions are stored in the image metadata, they are read automatically. Otherwise, the GUI will request them.
 
@@ -87,15 +87,15 @@ These examples cover the following workflow stages:
   <tr>
     <td align="center">
       <img src="IMAGES/L3-6/L3-6 all process.png" width="300" height="300"><br>
-      <b>LARVA</b>
+      <b>LARVA BEFORE PUPA FORMATION</b>
     </td>
     <td align="center">
       <img src="IMAGES/0H-1/0H-1 all process.png" width="300" height="300"><br>
-      <b>0 HOUR</b>
+      <b>0 HOUR AFTER PUPA FORMATION</b>
     </td>
     <td align="center">
       <img src="IMAGES/3H-1/3H-1 all process.png" width="300" height="300"><br>
-      <b>3 HOURS</b>
+      <b>3 HOURS AFTER PUPA FORMATION</b>
     </td>
   </tr>
 </table>
@@ -105,6 +105,10 @@ These examples cover the following workflow stages:
 For a complete explanation of the method, click on the link below and obtain the explanatory document:
 ### Lysosome_Diameter_BlobLoG_FWHM.docx
 It is located in the main directory of the directory
+
+# What does FWHM mean?
+FWHM means Full Width at Half Maximum. F = Full, W = Width, H = Half, M = Maximum. In the lysosome intensity profile, it is the full distance across the signal peak measured at 50% of the peak intensity. The script uses this width to estimate the lysosome diameter.
+
 
 ### [📄 Download the document](Lysosome_Diameter_BlobLoG_FWHM.docx)
 
@@ -116,7 +120,7 @@ It is located in the main directory of the directory
   <b>Figure: Radial intensity profile 3D used to estimate lysosome diameter with the FWHM method.</b>
 </p>
 
-## Signal quantization 
+## Signal quantification 
 
 ### LysosomeS
 
@@ -588,5 +592,9 @@ SOFTWARE.
 
 # Author
 
-**Nahuel Hernan Ramos**
+**Laboratory Technician Nahuel Hernan Ramos**
+
+**Weizmann Institute from Rehovot**[Weizmann Institute](https://www.weizmann.ac.il/pages/)
+
+**Oren Schuldiner Laboratory**[Schuldiner Lab](https://www.weizmann.ac.il/mcb/schuldiner/)
 
