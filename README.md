@@ -594,9 +594,11 @@ SOFTWARE.
 
 # Author
 
-**Laboratory Technician Nahuel Hernan Ramos**
+**Nahuel Hernan Ramos**
 
-**Weizmann Institute from Rehovot**[Weizmann Institute](https://www.weizmann.ac.il/pages/)
+**Laboratory Technician**
 
-**Oren Schuldiner Laboratory**[Schuldiner Lab](https://www.weizmann.ac.il/mcb/schuldiner/)
+**Weizmann Institute of Science, Rehovot, Israel** [Weizmann Institute](https://www.weizmann.ac.il/pages/)
+
+**Oren Schuldiner Laboratory** [Schuldiner Lab](https://www.weizmann.ac.il/mcb/schuldiner/)
 
