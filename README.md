@@ -106,7 +106,7 @@ For a complete explanation of the method, click on the link below and obtain the
 ### Lysosome_Diameter_BlobLoG_FWHM.docx
 It is located in the main directory of the directory
 
-# What does FWHM mean?
+## What does FWHM mean?
 FWHM means Full Width at Half Maximum. F = Full, W = Width, H = Half, M = Maximum. In the lysosome intensity profile, it is the full distance across the signal peak measured at 50% of the peak intensity. The script uses this width to estimate the lysosome diameter.
 
 
