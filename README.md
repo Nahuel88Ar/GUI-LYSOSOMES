@@ -361,14 +361,14 @@ Tutorial:
 
 The repository contains a **`requirements.txt`** file with all the Python packages required by the software.
 
-After creating the `lysosome-detector` environment:
+After creating the `Python 3.12 (myenv)` environment:
 
 1. Open **Anaconda Navigator**.
 2. Go to **Environments**.
 3. Select **`Python 3.12 (myenv)`**.
 4. Click the **play/arrow icon** next to the environment.
 5. Select **Open Terminal**.
-6. In the terminal, make sure that the `lysosome-detector` environment is active.
+6. In the terminal, make sure that the `Python 3.12 (myenv)` environment is active.
 7. Navigate to the folder containing this repository.
 8. Run:
 
@@ -523,7 +523,7 @@ Select lysosome-detector
 Launch Jupyter Notebook / JupyterLab
         │
         ▼
-Open GUI-LYSOSOMES
+Open GUI-LYSOSOMES/SCRIPTS
         │
         ├─────────────────────────┐
         ▼                         ▼
