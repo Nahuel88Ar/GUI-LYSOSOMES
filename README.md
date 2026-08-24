@@ -294,8 +294,8 @@ The software was developed and tested using:
 ## Clone the repository
 
 ```bash
-git clone https://github.com/YourUsername/Lysosomes-Detector-GUI.git
-cd Lysosomes-Detector-GUI
+git clone https://github.com/YourUsername/GUI-LYSOSOMES.git
+cd GUI-LYSOSOMES
 ```
 
 Alternatively, download the repository from GitHub as a ZIP file and extract it to a folder on your computer.
@@ -304,7 +304,7 @@ Alternatively, download the repository from GitHub as a ZIP file and extract it 
 
 ## Recommended Installation: Anaconda Navigator
 
-The recommended way to run **Lysosomes-Detector-GUI** is to use **Anaconda Navigator** with a dedicated Python environment. This keeps the required Python packages isolated from other projects and makes it easier to install the correct dependencies and run the Jupyter Notebooks.
+The recommended way to run **GUI-LYSOSOMES** is to use **Anaconda Navigator** with a dedicated Python environment. This keeps the required Python packages isolated from other projects and makes it easier to install the correct dependencies and run the Jupyter Notebooks.
 
 ### 1. Install Anaconda
 
@@ -334,7 +334,7 @@ Official documentation:
 
 ### 3. Create a dedicated environment
 
-Create a dedicated environment for **Lysosomes-Detector-GUI**.
+Create a dedicated environment for **GUI-LYSOSOMES**.
 
 In **Anaconda Navigator**:
 
@@ -392,8 +392,8 @@ You can obtain the repository either by cloning it with Git or by downloading it
 #### Option A — Clone the repository with Git
 
 ```bash
-git clone https://github.com/YourUsername/Lysosomes-Detector-GUI.git
-cd Lysosomes-Detector-GUI
+git clone https://github.com/YourUsername/GUI-LYSOSOMES.git
+cd GUI-LYSOSOMES
 ```
 
 #### Option B — Download the repository from GitHub
@@ -406,7 +406,7 @@ cd Lysosomes-Detector-GUI
 The repository should contain the following notebooks:
 
 ```text
-Lysosomes-Detector-GUI/
+GUI-LYSOSOMES/
 │
 ├── SCRIPTS/L3_GUI.ipynb
 ├── SCRIPTS/NOT_L3_GUI.ipynb
@@ -433,12 +433,12 @@ Official tutorials:
 * [Getting Started with Anaconda](https://www.anaconda.com/docs/getting-started/main)
 * [Working with Conda Environments](https://www.anaconda.com/docs/getting-started/working-with-conda/environments)
 
-### 7. Open the Lysosomes-Detector-GUI repository
+### 7. Open the GUI-LYSOSOMES repository
 
 After Jupyter opens in your web browser:
 
 1. Navigate to the location where you downloaded or cloned the repository.
-2. Open the **`Lysosomes-Detector-GUI`** folder.
+2. Open the **`GUI-LYSOSOMES`** folder.
 3. You should see the following two notebooks:
 
 ```text
@@ -523,7 +523,7 @@ Select lysosome-detector
 Launch Jupyter Notebook / JupyterLab
         │
         ▼
-Open Lysosomes-Detector-GUI
+Open GUI-LYSOSOMES
         │
         ├─────────────────────────┐
         ▼                         ▼
