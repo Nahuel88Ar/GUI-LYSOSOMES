@@ -156,9 +156,6 @@ PIMI = 0; 50% SIGNAL LYSOSOMES and 50% SIGNAL MEMBRANE
 
 PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
 
----
-# Examples
-
 These examples cover the following workflow stages:
 
 7. Quantify fluorescence and volume 3D
@@ -185,6 +182,9 @@ MASK 3 = MASK 1 - MASK 2
 CH 1: Channel 1(lysosomes)
 
 CH 2: Channel 2(cell)
+
+---
+# Examples
 
 <table>
   <tr>
