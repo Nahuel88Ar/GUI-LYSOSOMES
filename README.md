@@ -85,6 +85,11 @@ This part cover the following workflow stages:
 
 You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
 
+| Channel | Content |
+|----------|---------|
+| CH 01 | Lysosome UAS-TMEM 192-3xHA |
+| CH 02 | Membrane UAS-CD8-GFP |
+
 <table>
   <tr>
     <td align="center">
