@@ -224,10 +224,10 @@ The software generates quantitative tables including:
 - Residual fluorescence
 - Distance-based fluorescence analysis
 
-All the datasets for each image are in the folder: ### [📄Datasets](https://github.com/Nahuel88Ar/GUI-LYSOSOMES/tree/main/OUTPUT%20FILES)
+All the datasets for each image are in the folder: [📄Datasets](https://github.com/Nahuel88Ar/GUI-LYSOSOMES/tree/main/OUTPUT%20FILES)
 
 
-The next document contains a complete explanation of each dataset, its columns, and the meaning of each column: ### [📄 Download the document](Lysosome_Script_Datasets_and_Columns_Guide.docx)
+The next document contains a complete explanation of each dataset, its columns, and the meaning of each column: [📄 Download the document](Lysosome_Script_Datasets_and_Columns_Guide.docx)
 
 
 Visualization outputs include:
