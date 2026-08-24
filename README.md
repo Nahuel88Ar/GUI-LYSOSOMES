@@ -124,12 +124,7 @@ FWHM means Full Width at Half Maximum. F = Full, W = Width, H = Half, M = Maximu
 
 ## Signal quantification 
 
-### This part cover the following workflow stages:
-
-7. Quantify fluorescence and volume 3D
-8. Generate overlays and videos
-9. Edit results interactively in Napari
-10. Export all measurements
+### Quantify fluorescence and volume 3D
 
 ### Lysosomes
 
