@@ -158,7 +158,7 @@ PIMI = 0; 50% SIGNAL LYSOSOMES and 50% SIGNAL MEMBRANE
 
 PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
 
-## This part cover the following workflow stages:
+### This part cover the following workflow stages:
 
 7. Quantify fluorescence and volume 3D
 8. Generate overlays and videos
