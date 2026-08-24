@@ -70,11 +70,9 @@ The software performs the following pipeline:
 
 ---
 
-# Examples
+## Cell segmentation and lysosome detection
 
-You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
-
-These examples cover the following workflow stages:
+This part cover the following workflow stages:
 
 1. Load microscopy image 3D
 2. Read voxel metadata 3D
@@ -82,6 +80,10 @@ These examples cover the following workflow stages:
 4. Estimate lysosome size 3D
 5. Segment cells 3D
 6. Assign lysosomes to cells
+
+# Examples
+
+You can access the images shown through [📄Zenodo](https://zenodo.org/records/22024614).
 
 <table>
   <tr>
@@ -156,7 +158,7 @@ PIMI = 0; 50% SIGNAL LYSOSOMES and 50% SIGNAL MEMBRANE
 
 PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
 
-These examples cover the following workflow stages:
+This part cover the following workflow stages:
 
 7. Quantify fluorescence and volume 3D
 8. Generate overlays and videos
