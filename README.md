@@ -224,6 +224,10 @@ The software generates quantitative tables including:
 - Residual fluorescence
 - Distance-based fluorescence analysis
 
+This document contains a complete explanation of each dataset, its columns, and the meaning of each column.
+
+### [📄 Download the document](Lysosome_Script_Datasets_and_Columns_Guide.docx)
+
 Visualization outputs include:
 
 - RGB overlay TIFF stacks
