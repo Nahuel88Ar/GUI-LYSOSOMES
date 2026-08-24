@@ -65,7 +65,7 @@ The software performs the following pipeline:
 6. Assign lysosomes to cells
 7. Quantify fluorescence and volume 3D
 8. Generate overlays and videos
-9. (Optional) Edit results interactively in Napari
+9. Edit results interactively in Napari
 10. Export all measurements
 
 ---
@@ -124,9 +124,14 @@ FWHM means Full Width at Half Maximum. F = Full, W = Width, H = Half, M = Maximu
 
 ## Signal quantification 
 
-### LysosomeS
+### This part cover the following workflow stages:
 
-SIGNAL LYSOSOMES = SIGNAL LYSOSOMES CORE + SIGNAL LYSOSOMES ASSOCIATED
+7. Quantify fluorescence and volume 3D
+8. Generate overlays and videos
+9. Edit results interactively in Napari
+10. Export all measurements
+
+### Lysosomes
 
 SIGNAL LYSOSOMES CORE = X
 
@@ -138,7 +143,7 @@ A = X / Vx
 
 ### Membrane
 
-SIGNAL ADJ MEMBRANE = SIGNAL MEMBRANA - SIGNAL LYSOSOMES 
+SIGNAL ADJ MEMBRANE = SIGNAL MEMBRANE - SIGNAL LYSOSOMES CORE
 
 SIGNAL ADJ MEMBRANE = M
 
@@ -158,13 +163,6 @@ PIMI = 0; 50% SIGNAL LYSOSOMES and 50% SIGNAL MEMBRANE
 
 PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
 
-### This part cover the following workflow stages:
-
-7. Quantify fluorescence and volume 3D
-8. Generate overlays and videos
-9. (Optional) Edit results interactively in Napari
-10. Export all measurements
-
 <p align="center">
   <img src="MASKS.png" alt="MASKS" width="850">
 </p>
@@ -173,17 +171,16 @@ PIMI = 1; 100% SIGNAL LYSOSOMES and 0% SIGNAL MEMBRANE
   <b>Figure: Calculate MASKS.</b>
 </p>
 
-MASK 1: It represents the cell membrane.
+MASK 1: Represents the cell membrane.
 
-MASK 2: It represents the core lysosomes + difussed lysosomes.
+MASK 2: Represents the core lysosomes + associated lysosomes.
 
-MASK 3: It represents the RESIDUAL CELL MEMBRANE without lysosomes.
+MASK 3: Represents the RESIDUAL CELL MEMBRANE without lysosomes.
 
-MASK 3 = MASK 1 - MASK 2
 
-CH 1: Channel 1(lysosomes)
+CH 1: Channel 1(Lysosome UAS-TMEM 192-3xHA)
 
-CH 2: Channel 2(cell)
+CH 2: Channel 2(Membrane UAS-CD8-GFP)
 
 ---
 # Examples
