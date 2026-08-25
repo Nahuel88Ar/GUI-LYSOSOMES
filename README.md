@@ -68,6 +68,8 @@ The software performs the following pipeline:
 9. Edit results interactively in Napari
 10. Export all measurements
 
+The next document contains a complete explanation of the scripts logic and parameters: [📄 Download the document](Script_Logic_and_Parameters.docx)
+
 ---
 
 ## Cell segmentation and lysosome detection
